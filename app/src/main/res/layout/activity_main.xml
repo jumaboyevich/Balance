@@ -87,7 +87,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ssv_logo"
+                app:srcCompat="@drawable/woman_avatar"
                 app:tint="#EF1919"
                 tools:ignore="ContentDescription" />
 
@@ -95,7 +95,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:text="Title"
+                android:text="Men ayolman"
                 android:textColor="#181818"
 
                 app:layout_constraintBottom_toBottomOf="@id/img_edit"
@@ -141,7 +141,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ssv_logo"
+                app:srcCompat="@drawable/male_user"
                 app:tint="#EF1919"
                 tools:ignore="ContentDescription" />
 
@@ -149,7 +149,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:text="Title"
+                android:text="Men erkakman"
                 android:textColor="#181818"
 
                 app:layout_constraintBottom_toBottomOf="@id/img2"
@@ -194,7 +194,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ssv_logo"
+                app:srcCompat="@drawable/baby"
                 app:tint="#EF1919"
                 tools:ignore="ContentDescription" />
 
@@ -202,7 +202,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:text="Title"
+                android:text="Men yosh onaman"
                 android:textColor="#181818"
 
                 app:layout_constraintBottom_toBottomOf="@id/img3"
