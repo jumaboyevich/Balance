@@ -25,13 +25,19 @@
         android:layout_width="wrap_content"
         android:layout_height="15dp"
         android:layout_marginVertical="5dp"
-        android:layout_marginBottom="10dp"
         android:background="@android:color/transparent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/viewPager"
-        app:tabBackground="@drawable/tab_selector"
+        app:tabBackground="@drawable/tab_indicator_default"
         app:tabGravity="start"
-        app:tabIndicatorHeight="0dp"
+        android:layout_marginStart="15dp"
+        app:tabIndicatorHeight="15dp"
+        app:tabIndicatorColor="@color/dark_blue"
+        app:tabIndicator="@drawable/tab_indicator_selected"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicatorGravity="stretch"
+        app:tabIndicatorAnimationDuration="@integer/material_motion_duration_long_2"
+
         app:tabMode="fixed"
 
         />
@@ -43,6 +49,7 @@
         android:layout_marginStart="15dp"
         android:text="Xizmatlar"
         android:textColor="#141414"
+        android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tabDots" />
 
@@ -102,7 +109,6 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/btn2"
         android:layout_width="0dp"
-        android:layout_marginTop="15dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="10dp"
@@ -118,7 +124,8 @@
         app:contentPaddingTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/btn1"
-        app:layout_constraintTop_toBottomOf="@+id/txt_services"
+        app:layout_constraintTop_toTopOf="@id/btn1"
+        app:layout_constraintBottom_toBottomOf="@id/btn1"
 
         app:layout_constraintVertical_bias="0.0">
 
@@ -152,5 +159,129 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn3"
+        android:layout_marginTop="15dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:contentPaddingBottom="12dp"
+        app:contentPaddingLeft="8dp"
+        app:contentPaddingRight="8dp"
+        app:contentPaddingTop="12dp"
+        app:layout_constraintEnd_toStartOf="@id/btn4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ssv_logo"
+                app:tint="#EF1919"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Title"
+                android:textColor="#181818"
+
+                app:layout_constraintBottom_toBottomOf="@id/img3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/img3"
+                app:layout_constraintTop_toTopOf="@+id/img3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:contentPaddingBottom="12dp"
+        app:contentPaddingLeft="8dp"
+        app:contentPaddingRight="8dp"
+        app:contentPaddingTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn3"
+        app:layout_constraintTop_toTopOf="@id/btn3"
+        app:layout_constraintBottom_toBottomOf="@id/btn3"
+
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ssv_logo"
+                app:tint="#EF1919"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Title"
+                android:textColor="#181818"
+
+                app:layout_constraintBottom_toBottomOf="@id/img4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/img4"
+                app:layout_constraintTop_toTopOf="@+id/img4" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:background="@drawable/back_bottom_nav_menu"
+        android:duplicateParentState="true"
+        app:itemHorizontalTranslationEnabled="true"
+        app:itemIconTint="@drawable/bottom_navigation_menu_icon_tint"
+        app:itemRippleColor="@color/dark_blue"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_navigation_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

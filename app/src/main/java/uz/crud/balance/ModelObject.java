@@ -1,4 +1,4 @@
-package uz.crud.jinsiyvareproduktivsalomatlik;
+package uz.crud.balance;
 
 public class ModelObject {
 

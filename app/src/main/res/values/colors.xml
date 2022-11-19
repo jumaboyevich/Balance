@@ -11,10 +11,11 @@
     <color name="color2">#03A9F4</color>
     <color name="color3">#E2497D</color>
     <color name="color4">#59717C</color>
-
+    <color name="gray_light">#ACACAC</color>
     <!--    color palete-->
     <color name="white">#dde6ec</color>
     <color name="blue">#7ec4ed</color>
+    <color name="dark_blue">#0E65E0</color>
     <color name="yellow">#d0fc7d</color>
     <color name="pink">#ed579a</color>
     <color name="green">#2aed76</color>

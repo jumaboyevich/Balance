@@ -3,29 +3,34 @@ plugins {
 }
 
 android {
-    namespace 'uz.crud.jinsiyvareproduktivsalomatlik'
+    namespace 'uz.crud.balance'
     compileSdk 32
 
     defaultConfig {
-        applicationId "uz.crud.jinsiyvareproduktivsalomatlik"
+        applicationId "uz.crud.balance"
         minSdk 23
         targetSdk 32
         versionCode 1
         versionName "1.0"
-
+        setProperty("archivesBaseName", "Balance")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
+
+
         release {
+
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
         }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
 }
 
 dependencies {

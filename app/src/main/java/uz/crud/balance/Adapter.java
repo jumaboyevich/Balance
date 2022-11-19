@@ -1,11 +1,10 @@
-package uz.crud.jinsiyvareproduktivsalomatlik;
+package uz.crud.balance;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
@@ -42,7 +41,7 @@ public class Adapter extends PagerAdapter {
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         inflater=LayoutInflater.from(context);
 
-        View view=inflater.inflate(R.layout.item,container,false);
+        View view=inflater.inflate(R.layout.item, container,false);
 //        TextView title=view.findViewById(R.id.txtTitle);
 //        TextView description=view.findViewById(R.id.txtDescription);
 //        title.setText(models.get(position).getTitle());

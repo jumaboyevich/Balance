@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/b_menu_home"
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/b_linear_home"/>
+    <item android:title="@string/b_menu_process"
+        android:id="@+id/processFragment"
+        android:icon="@drawable/b_linear_presentionchart"/>
+    <item android:title="@string/b_menu_list"
+        android:id="@+id/clipboardFragment"
+        android:icon="@drawable/b_linear_clipboardtext"/>
+    <item android:title="@string/b_menu_user"
+        android:id="@+id/userFragment"
+        android:icon="@drawable/b_linear_user"/>
+</menu>

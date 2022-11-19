@@ -1,4 +1,4 @@
-package uz.crud.jinsiyvareproduktivsalomatlik;
+package uz.crud.balance;
 
 import org.junit.Test;
 

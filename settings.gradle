@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         jcenter()
     }
 }
-rootProject.name = "Jinsiy va reproduktiv salomatlik"
+rootProject.name = "Balance"
 include ':app'
