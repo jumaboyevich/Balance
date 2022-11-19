@@ -1,4 +1,4 @@
-package uz.crud.balance;
+package uz.crud.healthline;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,6 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import java.util.List;
+
+import uz.crud.balance.R;
 
 public class Adapter extends PagerAdapter {
 

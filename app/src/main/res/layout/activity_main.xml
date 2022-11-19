@@ -248,7 +248,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ssv_logo"
+                app:srcCompat="@drawable/family"
                 app:tint="#EF1919"
                 tools:ignore="ContentDescription" />
 
@@ -256,7 +256,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:text="Title"
+                android:text="Biz yosh oilamiz"
                 android:textColor="#181818"
 
                 app:layout_constraintBottom_toBottomOf="@id/img4"

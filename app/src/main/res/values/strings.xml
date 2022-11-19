@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Health Line</string>
-    <string name="b_menu_home">Balance</string>
-    <string name="b_menu_process">Balance</string>
-    <string name="b_menu_list">Balance</string>
-    <string name="b_menu_user">Balance</string>
+    <string name="b_menu_home">Title</string>
+    <string name="b_menu_process">Title</string>
+    <string name="b_menu_list">Title</string>
+    <string name="b_menu_user">Title</string>
 
 </resources>

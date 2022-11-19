@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         jcenter()
     }
 }
-rootProject.name = "Balance"
+rootProject.name = "Health line"
 include ':app'

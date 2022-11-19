@@ -1,4 +1,4 @@
-package uz.crud.balance;
+package uz.crud.healthline;
 
 public class ModelObject {
 

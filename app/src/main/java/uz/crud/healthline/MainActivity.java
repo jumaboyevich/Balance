@@ -1,4 +1,4 @@
-package uz.crud.balance;
+package uz.crud.healthline;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import uz.crud.balance.R;
 
 public class MainActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener{
 
