@@ -3,16 +3,16 @@ plugins {
 }
 
 android {
-    namespace 'uz.crud.balance'
+    namespace 'uz.crud.healthline'
     compileSdk 32
 
     defaultConfig {
-        applicationId "uz.crud.balance"
+        applicationId "uz.crud.healthline"
         minSdk 23
         targetSdk 32
         versionCode 1
         versionName "1.0"
-        setProperty("archivesBaseName", "Balance")
+        setProperty("archivesBaseName", "Health-line")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 

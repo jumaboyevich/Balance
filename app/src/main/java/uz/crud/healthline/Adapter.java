@@ -11,7 +11,6 @@ import androidx.viewpager.widget.PagerAdapter;
 
 import java.util.List;
 
-import uz.crud.balance.R;
 
 public class Adapter extends PagerAdapter {
 
